@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:6:5-69
+12-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:6:22-66
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:9:5-51:19
+16        android:allowBackup="true"
+16-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\anujm\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:15:9-40
+25        android:usesCleartextTraffic="true" >
+25-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:16:9-44
+26        <activity
+26-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:17:9-19:15
+27            android:name="com.example.myapplication.EventActivity"
+27-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:17:19-48
+28            android:screenOrientation="fullSensor" /> <!-- <activity android:name=".EventActivity"></activity> -->
+28-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:18:13-51
+29        <activity
+29-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:20:9-22:15
+30            android:name="com.example.myapplication.NotificationActivity"
+30-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:20:19-55
+31            android:screenOrientation="fullSensor" /> <!-- <activity android:name=".MainActivity"></activity> -->
+31-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:21:13-51
+32        <activity
+32-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:23:9-25:15
+33            android:name="com.example.myapplication.DashBoardActivity"
+33-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:23:19-52
+34            android:screenOrientation="fullSensor" />
+34-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:24:13-51
+35        <activity
+35-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:26:9-28:15
+36            android:name="com.example.myapplication.MainActivity"
+36-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:26:19-47
+37            android:screenOrientation="fullSensor" />
+37-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:27:13-51
+38        <activity
+38-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:29:9-31:15
+39            android:name="com.example.myapplication.NoInternetActivity"
+39-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:29:19-53
+40            android:screenOrientation="fullSensor" />
+40-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:30:13-51
+41        <activity
+41-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:32:9-34:15
+42            android:name="com.example.myapplication.ResultActivity"
+42-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:32:19-49
+43            android:screenOrientation="fullSensor" />
+43-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:33:13-51
+44        <activity
+44-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:35:9-37:15
+45            android:name="com.example.myapplication.ContactUs"
+45-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:35:19-44
+46            android:screenOrientation="fullSensor" />
+46-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:36:13-51
+47        <activity
+47-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:38:9-40:15
+48            android:name="com.example.myapplication.Attendance"
+48-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:38:19-45
+49            android:screenOrientation="fullSensor" />
+49-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:39:13-51
+50        <activity
+50-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:41:9-50:20
+51            android:name="com.example.myapplication.SplashActivity"
+51-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:42:13-43
+52            android:label="@string/app_name"
+52-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:44:13-45
+53            android:screenOrientation="fullSensor" >
+53-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:43:13-51
+54            <intent-filter>
+54-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:45:13-49:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:46:17-69
+55-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:46:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:48:17-77
+57-->D:\Work\Education\Projects\FinalSomaiyaApp-master\app\src\main\AndroidManifest.xml:48:27-74
+58            </intent-filter>
+59        </activity>
+60    </application>
+61
+62</manifest>
